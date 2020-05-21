@@ -8,3 +8,6 @@ compatible with LastPass.
 You can then go to "Import" in LastPass and choose "Generic CSV" as input. If
 the importer fails then its likely your KeePassX CSV had some issues. It's easy
 to hack on this little script.
+
+Run with python3 as:
+python3 keepass-to-lastpass.py > lastpass-input.csv
