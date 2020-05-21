@@ -1,2 +1,0 @@
-head -n 50 lastpass-import.csv | tail -n10 > foo && sed -i '1s/^/url,username,password,extra,name,grouping,fav
-/' foo && cp foo /mnt/chromeos/MyFiles/Downloads/
